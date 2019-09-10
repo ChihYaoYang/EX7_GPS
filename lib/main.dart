@@ -58,11 +58,12 @@ class _MyHomePageState extends State<MyHomePage> {
     latitude = position.latitude;
     longitude = position.longitude;
 
-    //_launchURL.launch('google.navigation:q=${latitude},${longitude}');
+    _launchURL.launch('google.navigation:q=${latitude},${longitude}');
     //_launchURL.launch('google.streetview:cbll=${latitude},${longitude}');
     //_launchURL.launch('geo:${latitude},${longitude}?z=1');
-    _launchURL.launch('tel:99999999');
+    //_launchURL.launch('tel:99999999');
     //_launchURL.launch('mailto:smith@example.org?subject=Assunto do email&body=Olá');
+    //_launchURL.launch('https://wa.me/+55555555555?text=bem vindo');
 
     setState(() {
       // This call to setState tells the Flutter framework that something has
